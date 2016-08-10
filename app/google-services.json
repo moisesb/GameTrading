@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "977789231587",
+    "firebase_url": "https://game-trading.firebaseio.com",
+    "project_id": "game-trading",
+    "storage_bucket": "game-trading.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977789231587:android:f8fb5647cc7d5bc5",
+        "android_client_info": {
+          "package_name": "net.moisesborges.gametrading"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977789231587-8gabhsq87iqsdb8qgeaq003sn5atba87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTms8F-wNU8t7rOY6tndkRXVFIszI3wMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
