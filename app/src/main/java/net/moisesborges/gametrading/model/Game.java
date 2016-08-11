@@ -17,6 +17,7 @@ public class Game {
     private String name;
     @SerializedName("original_release_date")
     private Date releaseDate;
+    @SerializedName("platforms")
     private List<Platform> platforms;
 
     public Game() {
@@ -57,6 +58,11 @@ public class Game {
 
     @Override
     public String toString() {
-        return "Game[id:" + id + ",name:" + name + ",release_date:" + releaseDate + "]";
+        String baseInfo = "Game[id:" + id + ",name:" + name + ",release_date:" + releaseDate + ",platforms:";
+        for (Platform platform : platforms) {
+            baseInfo += platform.toString() + " :";
+        }
+        baseInfo += "]";
+        return baseInfo;
     }
 }
