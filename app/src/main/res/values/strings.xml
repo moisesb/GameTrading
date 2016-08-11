@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Game Trading</string>
+    <string name="search_button">Search</string>
 </resources>
