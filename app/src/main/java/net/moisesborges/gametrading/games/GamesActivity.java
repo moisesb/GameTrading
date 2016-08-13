@@ -5,12 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 import net.moisesborges.gametrading.R;
 import net.moisesborges.gametrading.model.Game;
@@ -31,9 +33,16 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
     @BindView(R.id.games_recycler_view)
     RecyclerView mGamesRecyclerView;
 
-    private GameAdapter mAdapter = new GameAdapter(new ArrayList<Game>(0));
-
     private GamesPresenter mPresenter;
+
+    private OnGameClickCallback mOnGameClickCallback = new OnGameClickCallback() {
+        @Override
+        public void onClick(Game game) {
+           mPresenter.openGame(game.getId());
+        }
+    };
+
+    private GameAdapter mAdapter = new GameAdapter(new ArrayList<Game>(0), mOnGameClickCallback);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,13 +93,18 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
 
     }
 
+    interface OnGameClickCallback {
+        void onClick(Game game);
+    }
 
     static class GameAdapter extends RecyclerView.Adapter<GameAdapter.ViewHolder> {
 
+        private final OnGameClickCallback mCallback;
         private List<Game> mGames;
 
-        public GameAdapter(@NonNull List<Game> games) {
+        public GameAdapter(@NonNull List<Game> games, OnGameClickCallback callback) {
             this.mGames = games;
+            this.mCallback = callback;
         }
 
         public void replaceData(@NonNull List<Game> games) {
@@ -108,7 +122,13 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
             final Game game = mGames.get(position);
-            holder.mGameNameTextView.setText(game.toString());
+            holder.mNameTextView.setText(game.getName());
+            holder.mPlatformTextView.setText(game.getPlatforms().get(0).getAbbreviation());
+            Picasso.with(holder.itemView.getContext())
+                    .load(game.getImage().getImageUrl())
+                    .resize(80,80)
+                    .into(holder.mCoverImageView);
+
         }
 
         @Override
@@ -117,11 +137,15 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
         }
 
         public class ViewHolder extends RecyclerView.ViewHolder {
-            final TextView mGameNameTextView;
+            final TextView mNameTextView;
+            final ImageView mCoverImageView;
+            final TextView mPlatformTextView;
 
             public ViewHolder(View itemView) {
                 super(itemView);
-                mGameNameTextView = (TextView) itemView.findViewById(R.id.game_name_text_view);
+                mNameTextView = (TextView) itemView.findViewById(R.id.game_name_text_view);
+                mCoverImageView = (ImageView) itemView.findViewById(R.id.game_cover_image_view);
+                mPlatformTextView = (TextView) itemView.findViewById(R.id.platform_text_view);
             }
         }
     }

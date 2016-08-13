@@ -9,9 +9,10 @@ import com.google.gson.annotations.SerializedName;
 public class Platform {
     @SerializedName("id")
     private int id;
-
     @SerializedName("name")
     private String name;
+    @SerializedName("abbreviation")
+    private String abbreviation;
 
     public int getId() {
         return id;
@@ -27,6 +28,14 @@ public class Platform {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAbbreviation() {
+        return abbreviation;
+    }
+
+    public void setAbbreviation(String abbreviation) {
+        this.abbreviation = abbreviation;
     }
 
     @Override

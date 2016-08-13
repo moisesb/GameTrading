@@ -17,6 +17,8 @@ public class Game {
     private String name;
     @SerializedName("original_release_date")
     private Date releaseDate;
+    @SerializedName("image")
+    private Image image;
     @SerializedName("platforms")
     private List<Platform> platforms;
 
@@ -48,6 +50,14 @@ public class Game {
         this.releaseDate = releaseDate;
     }
 
+    public Image getImage() {
+        return image;
+    }
+
+    public void setImage(Image image) {
+        this.image = image;
+    }
+
     public List<Platform> getPlatforms() {
         return platforms;
     }
@@ -56,13 +66,4 @@ public class Game {
         this.platforms = platforms;
     }
 
-    @Override
-    public String toString() {
-        String baseInfo = "Game[id:" + id + ",name:" + name + ",release_date:" + releaseDate + ",platforms:";
-        for (Platform platform : platforms) {
-            baseInfo += platform.toString() + " :";
-        }
-        baseInfo += "]";
-        return baseInfo;
-    }
 }
