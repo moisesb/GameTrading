@@ -1,4 +1,16 @@
 <resources>
+
+    <string name="facebook_app_id">1782711141950556</string>
+
     <string name="app_name">Game Trading</string>
     <string name="search_button">Search</string>
+    <string name="link_to_login_message">Already a member? Login</string>
+    <string name="name_hint">Username</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="creating_account_dialog_message">Creating account...</string>
+    <string name="invalid_email_messsage">Invalid Email</string>
+    <string name="invalid_password_message">Password too short</string>
+    <string name="signing_dialog_message">Sign In...</string>
 </resources>
