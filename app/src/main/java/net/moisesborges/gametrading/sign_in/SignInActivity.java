@@ -1,6 +1,8 @@
 package net.moisesborges.gametrading.sign_in;
 
 import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +16,7 @@ import com.facebook.login.widget.LoginButton;
 
 import net.moisesborges.gametrading.R;
 import net.moisesborges.gametrading.games.GamesActivity;
+import net.moisesborges.gametrading.sign_up.SignUpActivity;
 import net.moisesborges.gametrading.utils.UiHelper;
 
 import butterknife.BindView;
@@ -86,10 +89,18 @@ public class SignInActivity extends AppCompatActivity implements SignInView{
         super.onDestroy();
     }
 
-    @OnClick(R.id.sign_in_button) void onSignInClick() {
+    @OnClick(R.id.sign_in_button)
+    @SuppressWarnings("unused")
+    void onSignInClick() {
         String email = mEmailEditText.getText().toString();
         String password = mPasswordEditText.getText().toString();
         mSignInPresenter.signInWithEmail(email, password);
+    }
+
+    @OnClick(R.id.link_signup)
+    @SuppressWarnings("unused")
+    void onLinkClick() {
+        mSignInPresenter.signUp();
     }
 
     @Override
@@ -119,5 +130,16 @@ public class SignInActivity extends AppCompatActivity implements SignInView{
     @Override
     public void showInvalidPassword() {
         mPasswordEditText.setError(getResources().getString(R.string.invalid_password_message));
+    }
+
+    @Override
+    public void navigateToSignUp() {
+        SignUpActivity.start(this);
+        finish();
+    }
+
+    public static void start(Context context) {
+        Intent intent = new Intent(context, SignInActivity.class);
+        context.startActivity(intent);
     }
 }

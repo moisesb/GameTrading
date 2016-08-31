@@ -40,7 +40,7 @@ public class SignInPresenter implements BasePresenter<SignInView> {
             return;
         }
 
-        if (mSignInService.validatePassword(password)) {
+        if (!mSignInService.validatePassword(password)) {
             mView.showInvalidPassword();
             return;
         }
@@ -68,5 +68,13 @@ public class SignInPresenter implements BasePresenter<SignInView> {
     @Override
     public void unbindView() {
         mView = null;
+    }
+
+    public void signUp() {
+        if (mView == null) {
+            return;
+        }
+
+        mView.navigateToSignUp();
     }
 }

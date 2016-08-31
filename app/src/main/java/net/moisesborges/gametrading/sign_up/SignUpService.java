@@ -26,16 +26,6 @@ public class SignUpService {
     public SignUpService() {
 
         mAuth = FirebaseAuth.getInstance();
-        mAuth.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                if (firebaseAuth.getCurrentUser() != null) {
-                    Log.d("signIn", firebaseAuth.getCurrentUser().toString());
-                } else {
-                    logout();
-                }
-            }
-        });
     }
 
     public boolean isUsernameValid(String userName) {
@@ -91,10 +81,7 @@ public class SignUpService {
                 });
     }
 
-    public void logout() {
-        mAuth.signOut();
-        LoginManager.getInstance().logOut();
-    }
+
 
 
     public interface SignUpCallback {

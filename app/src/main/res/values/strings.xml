@@ -13,4 +13,5 @@
     <string name="invalid_email_messsage">Invalid Email</string>
     <string name="invalid_password_message">Password too short</string>
     <string name="signing_dialog_message">Sign In...</string>
+    <string name="link_to_signup_message">Don\'t have an Account ? Sign up</string>
 </resources>

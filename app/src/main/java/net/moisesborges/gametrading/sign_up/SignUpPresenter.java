@@ -84,4 +84,12 @@ public class SignUpPresenter implements BasePresenter<SignUpView> {
     public void unbindView() {
         mView = null;
     }
+
+    public void login() {
+        if (mView == null) {
+            return;
+        }
+
+        mView.navigateToLogin();
+    }
 }

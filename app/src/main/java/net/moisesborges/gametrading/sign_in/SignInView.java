@@ -16,4 +16,6 @@ public interface SignInView extends BaseView {
     void showInvalidEmail();
 
     void showInvalidPassword();
+
+    void navigateToSignUp();
 }
