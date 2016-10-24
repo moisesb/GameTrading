@@ -39,3 +39,8 @@
 
  # Keystore files
  *.jks
+libs/
+src/main/java/net/moisesborges/gametrading/createaccount/
+src/main/java/net/moisesborges/gametrading/profile/
+src/main/res/drawable/
+src/main/res/layout/activity_profile.xml
