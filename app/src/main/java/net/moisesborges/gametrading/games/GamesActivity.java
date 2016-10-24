@@ -7,7 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -19,6 +22,7 @@ import com.squareup.picasso.Picasso;
 import net.moisesborges.gametrading.R;
 import net.moisesborges.gametrading.model.Game;
 import net.moisesborges.gametrading.repositories.GamesRepository;
+import net.moisesborges.gametrading.sign_in.SignInService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,6 +38,9 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
 
     @BindView(R.id.games_recycler_view)
     RecyclerView mGamesRecyclerView;
+
+    @BindView(R.id.toolbar)
+    Toolbar mToolbar;
 
     private GamesPresenter mPresenter;
 
@@ -51,6 +58,7 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_games);
         ButterKnife.bind(this);
+        initToolbar();
         initRecyclerView();
 
         mPresenter = new GamesPresenter(new GamesRepository());
@@ -61,6 +69,31 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
     protected void onDestroy() {
         mPresenter.unbindView();
         super.onDestroy();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.dashboard_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_logout:
+                logout();
+                break;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+        return true;
+    }
+
+    private void logout() {
+    }
+
+    private void initToolbar() {
+        setSupportActionBar(mToolbar);
     }
 
     private void initRecyclerView() {

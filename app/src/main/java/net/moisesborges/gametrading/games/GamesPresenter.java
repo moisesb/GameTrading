@@ -10,7 +10,7 @@ import java.util.List;
  * Created by moises.anjos on 11/08/2016.
  */
 
-public class GamesPresenter implements BasePresenter<GamesView> {
+public class GamesPresenter extends BasePresenter<GamesView> {
 
     private final GamesRepository mGamesRepository;
     private GamesView mView;

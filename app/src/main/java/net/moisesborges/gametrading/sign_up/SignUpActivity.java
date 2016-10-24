@@ -19,6 +19,7 @@ import com.facebook.login.widget.LoginButton;
 import net.moisesborges.gametrading.R;
 import net.moisesborges.gametrading.games.GamesActivity;
 import net.moisesborges.gametrading.sign_in.SignInActivity;
+import net.moisesborges.gametrading.sign_in.SignInService;
 import net.moisesborges.gametrading.utils.UiHelper;
 
 import butterknife.BindView;
@@ -60,6 +61,8 @@ public class SignUpActivity extends AppCompatActivity implements SignUpView {
         mProgressDialog = UiHelper.createProgressDialog(this, R.string.creating_account_dialog_message);
     }
 
+
+
     private void setupFacebookLoginButton() {
         mCallbackManager = CallbackManager.Factory.create();
 
@@ -100,8 +103,10 @@ public class SignUpActivity extends AppCompatActivity implements SignUpView {
     @Override
     protected void onStart() {
         super.onStart();
-        mSignUpPresenter = new SignUpPresenter(new SignUpService());
+        mSignUpPresenter = new SignUpPresenter(new SignUpService(), new SignInService());
         mSignUpPresenter.bindView(this);
+
+        mSignUpPresenter.checkLoggedIn();
     }
 
     @Override

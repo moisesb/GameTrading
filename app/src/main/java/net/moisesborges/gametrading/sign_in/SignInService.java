@@ -80,6 +80,10 @@ public class SignInService {
         LoginManager.getInstance().logOut();
     }
 
+    public boolean isLogged() {
+        return mAuth.getCurrentUser() != null;
+    }
+
     public interface SignInCallback {
         void onSuccess();
 

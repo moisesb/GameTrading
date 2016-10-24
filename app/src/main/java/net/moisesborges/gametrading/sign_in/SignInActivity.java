@@ -56,6 +56,7 @@ public class SignInActivity extends AppCompatActivity implements SignInView{
         mProgressDialog = UiHelper.createProgressDialog(this, R.string.signing_dialog_message);
     }
 
+
     private void setupFacebookButton() {
         mCallbackManager = CallbackManager.Factory.create();
 

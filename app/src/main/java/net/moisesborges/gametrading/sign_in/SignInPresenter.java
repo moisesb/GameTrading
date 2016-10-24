@@ -8,20 +8,19 @@ import net.moisesborges.gametrading.mvp.BasePresenter;
  * Created by Moisés on 25/08/2016.
  */
 
-public class SignInPresenter implements BasePresenter<SignInView> {
+public class SignInPresenter extends BasePresenter<SignInView> {
     private final SignInService mSignInService;
-    private SignInView mView;
     private SignInService.SignInCallback mCallback = new SignInService.SignInCallback() {
         @Override
         public void onSuccess() {
-            mView.setProgressIndicator(false);
-            mView.navigateToDashboard();
+            getView().setProgressIndicator(false);
+            getView().navigateToDashboard();
         }
 
         @Override
         public void onError() {
-            mView.setProgressIndicator(false);
-            mView.showWrongEmailAndPassword();
+            getView().setProgressIndicator(false);
+            getView().showWrongEmailAndPassword();
         }
     };
 
@@ -31,50 +30,34 @@ public class SignInPresenter implements BasePresenter<SignInView> {
 
 
     public void signInWithEmail(String email, String password) {
-        if (mView == null) {
-            return;
-        }
+        checkView();
 
         if (!mSignInService.validateEmail(email)) {
-            mView.showInvalidEmail();
+            getView().showInvalidEmail();
             return;
         }
 
         if (!mSignInService.validatePassword(password)) {
-            mView.showInvalidPassword();
+            getView().showInvalidPassword();
             return;
         }
 
-        mView.setProgressIndicator(true);
+        getView().setProgressIndicator(true);
 
         mSignInService.loginWithEmail(email, password, mCallback);
     }
 
     public void signInWithFacebook(AccessToken accessToken) {
-        if (mView == null) {
-            return;
-        }
+        checkView();
 
-        mView.setProgressIndicator(true);
+        getView().setProgressIndicator(true);
 
         mSignInService.loginWithFacebook(accessToken, mCallback);
     }
 
-    @Override
-    public void bindView(SignInView view) {
-        mView = view;
-    }
-
-    @Override
-    public void unbindView() {
-        mView = null;
-    }
-
     public void signUp() {
-        if (mView == null) {
-            return;
-        }
+        checkView();
 
-        mView.navigateToSignUp();
+        getView().navigateToSignUp();
     }
 }

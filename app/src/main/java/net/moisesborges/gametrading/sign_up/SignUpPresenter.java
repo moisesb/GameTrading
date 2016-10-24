@@ -3,18 +3,21 @@ package net.moisesborges.gametrading.sign_up;
 import com.facebook.AccessToken;
 
 import net.moisesborges.gametrading.mvp.BasePresenter;
+import net.moisesborges.gametrading.sign_in.SignInService;
 
 /**
  * Created by Moisés on 23/08/2016.
  */
 
-public class SignUpPresenter implements BasePresenter<SignUpView> {
+public class SignUpPresenter extends BasePresenter<SignUpView> {
 
     private final SignUpService mSignUpService;
+    private final SignInService mSignInService;
     private SignUpView mView;
 
-    public SignUpPresenter(SignUpService signUpService) {
+    public SignUpPresenter(SignUpService signUpService, SignInService signInService) {
         mSignUpService = signUpService;
+        mSignInService = signInService;
     }
 
 
@@ -91,5 +94,15 @@ public class SignUpPresenter implements BasePresenter<SignUpView> {
         }
 
         mView.navigateToLogin();
+    }
+
+    public void checkLoggedIn() {
+        if (mView == null) {
+            return;
+        }
+
+        if (mSignInService.isLogged()) {
+            mView.navigateToDashboard();
+        }
     }
 }
