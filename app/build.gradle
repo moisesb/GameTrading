@@ -53,5 +53,9 @@ dependencies {
 
     //Firebase
     compile 'com.google.firebase:firebase-auth:9.0.0'
+
+    // RxJava
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.1.6'
 }
 apply plugin: 'com.google.gms.google-services'

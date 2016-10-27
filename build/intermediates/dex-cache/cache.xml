@@ -390,12 +390,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_496b2270139bdc38f3323b07dd4d740d41423fb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Android\Sdk\extras\android\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha1\constraint-layout-solver-1.0.0-alpha1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="78d61c347aa5002119e3c17bffcbebf28fe07b0b">
         <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-alpha1_75c9a1ca57cf336e6f301f11e5c5d25aa810b916.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.2.1_279f1ec33a02028514d61640163e2613fbe88804.jar" />
     </item>
     <item
         is-multidex="false"
