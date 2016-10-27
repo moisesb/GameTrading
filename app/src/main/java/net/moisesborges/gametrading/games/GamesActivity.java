@@ -2,9 +2,9 @@ package net.moisesborges.gametrading.games;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -20,9 +20,12 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
 import net.moisesborges.gametrading.R;
+import net.moisesborges.gametrading.login.service.LoginService;
+import net.moisesborges.gametrading.login.view.SignInActivity;
 import net.moisesborges.gametrading.model.Game;
 import net.moisesborges.gametrading.repositories.GamesRepository;
-import net.moisesborges.gametrading.sign_in.SignInService;
+import net.moisesborges.gametrading.session.SessionPresenter;
+import net.moisesborges.gametrading.session.SessionView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +34,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class GamesActivity extends AppCompatActivity implements GamesView {
+public class GamesActivity extends AppCompatActivity implements GamesView, SessionView {
 
     @BindView(R.id.game_name_edit_text)
     EditText mGameNameEditText;
@@ -42,12 +45,13 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
     @BindView(R.id.toolbar)
     Toolbar mToolbar;
 
-    private GamesPresenter mPresenter;
+    private GamesPresenter mGamesPresenter;
+    private SessionPresenter mSessionPresenter;
 
     private OnGameClickCallback mOnGameClickCallback = new OnGameClickCallback() {
         @Override
         public void onClick(Game game) {
-           mPresenter.openGame(game.getId());
+           mGamesPresenter.openGame(game.getId());
         }
     };
 
@@ -60,14 +64,27 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
         ButterKnife.bind(this);
         initToolbar();
         initRecyclerView();
+    }
 
-        mPresenter = new GamesPresenter(new GamesRepository());
-        mPresenter.bindView(this);
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mGamesPresenter = new GamesPresenter(new GamesRepository());
+        mGamesPresenter.bindView(this);
+        mSessionPresenter = new SessionPresenter(new LoginService());
+        mSessionPresenter.bindView(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mSessionPresenter.checkIfUserIsLoggedIn();
     }
 
     @Override
     protected void onDestroy() {
-        mPresenter.unbindView();
+        mSessionPresenter.unbindView();
+        mGamesPresenter.unbindView();
         super.onDestroy();
     }
 
@@ -90,6 +107,7 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
     }
 
     private void logout() {
+        mSessionPresenter.loggout();
     }
 
     private void initToolbar() {
@@ -105,7 +123,7 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
     @OnClick(R.id.search_button)
     void onSearchClick() {
         final String gameName = mGameNameEditText.getText().toString();
-        mPresenter.searchGames(gameName);
+        mGamesPresenter.searchGames(gameName);
     }
 
     @Override
@@ -131,6 +149,12 @@ public class GamesActivity extends AppCompatActivity implements GamesView {
     public static void start(Context context) {
         Intent intent = new Intent(context, GamesActivity.class);
         context.startActivity(intent);
+    }
+
+    @Override
+    public void natigateToLogin() {
+        SignInActivity.start(this);
+        finish();
     }
 
     interface OnGameClickCallback {

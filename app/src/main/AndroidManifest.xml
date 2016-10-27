@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools"
-          package="net.moisesborges.gametrading">
+<manifest package="net.moisesborges.gametrading"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -31,22 +31,27 @@
             tools:replace="android:theme"/>
 
         <activity android:name=".MainActivity"/>
-        <activity android:name=".games.GamesActivity"
-            android:windowSoftInputMode="stateHidden"/>
+
         <activity
-            android:name=".sign_up.SignUpActivity"
-            android:theme="@style/AppTheme.Dark"
-            android:windowSoftInputMode="stateHidden">
+            android:name=".games.GamesActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".sign_in.SignInActivity"
+            android:name=".login.view.SignUpActivity"
             android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden"/>
+
+        <activity
+            android:name=".login.view.SignInActivity"
+            android:theme="@style/AppTheme.Dark"
+            android:windowSoftInputMode="stateHidden"/>
+
     </application>
 
 </manifest>
