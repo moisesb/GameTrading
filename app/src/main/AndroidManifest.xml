@@ -52,13 +52,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".gamesearch.GameSearchActivity"
-            android:parentActivityName=".dashboard.DashboardActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.SEARCH" />
-            </intent-filter>
-            <meta-data android:name="android.app.searchable"
-                       android:resource="@xml/searchable"/>
-        </activity>
+            android:parentActivityName=".dashboard.DashboardActivity"/>
     </application>
 
 </manifest>

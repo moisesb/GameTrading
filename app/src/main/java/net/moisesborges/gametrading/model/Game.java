@@ -66,4 +66,8 @@ public class Game {
         this.platforms = platforms;
     }
 
+    @Override
+    public String toString() {
+        return getName();
+    }
 }

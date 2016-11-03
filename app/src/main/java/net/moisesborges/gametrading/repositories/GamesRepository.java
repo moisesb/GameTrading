@@ -15,7 +15,9 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
+import rx.Observable;
 
 /**
  * Created by moise on 10/08/2016.
@@ -33,6 +35,7 @@ public class GamesRepository {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://www.giantbomb.com/api/")
+                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 
@@ -58,6 +61,10 @@ public class GamesRepository {
                 callback.onError();
             }
         });
+    }
+
+    public Observable<GameSearch> queryGamesByName(String gameName) {
+        return giantBombApi.getGames(apiKey, "name:" + gameName);
     }
 
 
