@@ -1,7 +1,11 @@
 package net.moisesborges.gametrading.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -9,7 +13,7 @@ import java.util.List;
  * Created by moises.anjos on 10/08/2016.
  */
 
-public class Game {
+public class Game implements Parcelable{
 
     @SerializedName("id")
     private int id;
@@ -24,6 +28,41 @@ public class Game {
 
     public Game() {
 
+    }
+
+    protected Game(Parcel in) {
+        id = in.readInt();
+        name = in.readString();
+        releaseDate = (Date) in.readSerializable();
+        image = in.readParcelable(Image.class.getClassLoader());
+        platforms = new ArrayList<>();
+        in.readList(platforms, null);
+    }
+
+    public static final Creator<Game> CREATOR = new Creator<Game>() {
+        @Override
+        public Game createFromParcel(Parcel in) {
+            return new Game(in);
+        }
+
+        @Override
+        public Game[] newArray(int size) {
+            return new Game[size];
+        }
+    };
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeInt(id);
+        parcel.writeString(name);
+        parcel.writeSerializable(releaseDate);
+        parcel.writeParcelable(image,i);
+        parcel.writeTypedList(platforms);
     }
 
     public int getId() {
@@ -70,4 +109,5 @@ public class Game {
     public String toString() {
         return getName();
     }
+
 }

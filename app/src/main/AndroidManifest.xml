@@ -51,8 +51,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".gamesearch.GameSearchActivity"
+        <activity
+            android:name=".gamesearch.GameSearchActivity"
             android:parentActivityName=".dashboard.DashboardActivity"/>
+        <activity android:name=".gamedetails.GameDetailsActivity"
+            />
     </application>
 
 </manifest>

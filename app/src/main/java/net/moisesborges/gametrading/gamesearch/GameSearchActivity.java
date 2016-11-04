@@ -21,6 +21,7 @@ import com.miguelcatalan.materialsearchview.MaterialSearchView;
 import net.moisesborges.gametrading.R;
 import net.moisesborges.gametrading.adapters.AdapterItemCallback;
 import net.moisesborges.gametrading.adapters.GameAdapter;
+import net.moisesborges.gametrading.gamedetails.GameDetailsActivity;
 import net.moisesborges.gametrading.model.Game;
 import net.moisesborges.gametrading.repositories.GamesRepository;
 
@@ -222,6 +223,6 @@ public class GameSearchActivity extends AppCompatActivity implements GameSearchV
 
     @Override
     public void navigateToGame(Game game) {
-        Log.d("GameSearch", "navigateToGame: " + game.getName());
+        GameDetailsActivity.start(this, game);
     }
 }
