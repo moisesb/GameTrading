@@ -291,6 +291,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.10.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.getbase-floatingactionbutton-1.10.1_95bad776672de6d9f62256bfa25fce76cb14e7a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
         jumboMode="false"
         optimize="true"

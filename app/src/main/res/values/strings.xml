@@ -28,4 +28,10 @@
     <string name="no_games_found_message">No results found for \"%1$s\".</string>
     <string name="no_games_found_alert">Please check you have the right spelling, or try different keywords.</string>
     <string name="search_games_message">Search games by title</string>
+
+    <string name="want_game_text">Want Game</string>
+    <string name="offer_game_text">Offer Game</string>
+    <string name="sell_game_text">Sell Game</string>
+    <string name="game_description">Description</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc felis, finibus non odio et, congue volutpat enim. Nunc euismod ex a nibh luctus vehicula. Phasellus gravida suscipit ex a eleifend. Fusce sodales congue ante et gravida. Quisque iaculis erat ut feugiat malesuada. Nullam commodo quam eget ultricies dignissim. Aenean ut justo quis ex posuere efficitur. Quisque dignissim pellentesque ligula. Morbi feugiat orci nisi, vel egestas metus consequat non. Nullam eget libero id purus euismod faucibus nec eu turpis.</string>
 </resources>

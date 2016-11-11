@@ -25,6 +25,8 @@ public class Game implements Parcelable{
     private Image image;
     @SerializedName("platforms")
     private List<Platform> platforms;
+    @SerializedName("deck")
+    private String summary;
 
     public Game() {
 
@@ -36,7 +38,8 @@ public class Game implements Parcelable{
         releaseDate = (Date) in.readSerializable();
         image = in.readParcelable(Image.class.getClassLoader());
         platforms = new ArrayList<>();
-        in.readList(platforms, null);
+        in.readTypedList(platforms, Platform.CREATOR);
+        summary = in.readString();
     }
 
     public static final Creator<Game> CREATOR = new Creator<Game>() {
@@ -63,6 +66,7 @@ public class Game implements Parcelable{
         parcel.writeSerializable(releaseDate);
         parcel.writeParcelable(image,i);
         parcel.writeTypedList(platforms);
+        parcel.writeString(summary);
     }
 
     public int getId() {
@@ -103,6 +107,14 @@ public class Game implements Parcelable{
 
     public void setPlatforms(List<Platform> platforms) {
         this.platforms = platforms;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 
     @Override
