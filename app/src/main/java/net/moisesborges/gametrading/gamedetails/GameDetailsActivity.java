@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -15,12 +17,13 @@ import net.moisesborges.gametrading.model.Game;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  * Created by moises.anjos on 04/11/2016.
  */
 
-public class GameDetailsActivity extends AppCompatActivity implements GameDetailsView{
+public class GameDetailsActivity extends AppCompatActivity implements GameDetailsView {
 
     private static final String GAME_ARG = "net.moisesborges.gametrading.gamedetails.GameDetailsActivity.mGame";
 
@@ -29,6 +32,9 @@ public class GameDetailsActivity extends AppCompatActivity implements GameDetail
 
     @BindView(R.id.game_description_text_view)
     TextView mDescriptionTextView;
+
+    @BindView(R.id.toolbar)
+    Toolbar mToolbar;
 
     private Game mGame;
     private GameDetailsPresenter mPresenter;
@@ -40,7 +46,26 @@ public class GameDetailsActivity extends AppCompatActivity implements GameDetail
         ButterKnife.bind(this);
 
         mGame = getIntent().getParcelableExtra(GAME_ARG);
+        setupToolbar();
         setupPresenter();
+    }
+
+    private void setupToolbar() {
+        setSupportActionBar(mToolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+
+        return true;
     }
 
     @Override
@@ -72,6 +97,18 @@ public class GameDetailsActivity extends AppCompatActivity implements GameDetail
         context.startActivity(intent);
     }
 
+    @OnClick(R.id.want_game_button)
+    @SuppressWarnings("unused")
+    void onWantGameClick() {
+        mPresenter.changeWantedStatus(mGame);
+    }
+
+    @OnClick(R.id.offer_game_button)
+    @SuppressWarnings("unused")
+    void onOfferGameClick() {
+        mPresenter.changeOfferedStatus(mGame);
+    }
+
     @Override
     public void setGameCoverImage(String imageUrl) {
         Picasso.with(this)
@@ -82,5 +119,10 @@ public class GameDetailsActivity extends AppCompatActivity implements GameDetail
     @Override
     public void setDescription(String description) {
         mDescriptionTextView.setText(description);
+    }
+
+    @Override
+    public void setTitle(String title) {
+        getSupportActionBar().setTitle(title);
     }
 }

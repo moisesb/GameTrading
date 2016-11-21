@@ -13,6 +13,8 @@ import com.squareup.picasso.Picasso;
 import net.moisesborges.gametrading.R;
 import net.moisesborges.gametrading.games.GamesActivity;
 import net.moisesborges.gametrading.model.Game;
+import net.moisesborges.gametrading.model.Image;
+import net.moisesborges.gametrading.model.Platform;
 
 import java.util.List;
 
@@ -46,12 +48,15 @@ public class GameAdapter extends RecyclerView.Adapter<GameAdapter.ViewHolder> {
     public void onBindViewHolder(ViewHolder holder, int position) {
         final Game game = mGames.get(position);
         holder.mNameTextView.setText(game.getName());
-        holder.mPlatformTextView.setText(game.getPlatforms().get(0).getAbbreviation());
-        Picasso.with(holder.itemView.getContext())
-                .load(game.getImage().getImageUrl())
-                .resize(80,80)
-                .into(holder.mCoverImageView);
-
+        final List<Platform> platforms = game.getPlatforms();
+        holder.mPlatformTextView.setText(platforms.get(0).getAbbreviation());
+        final Image image = game.getImage();
+        if (image != null) {
+            Picasso.with(holder.itemView.getContext())
+                    .load(image.getImageUrl())
+                    .resize(80,80)
+                    .into(holder.mCoverImageView);
+        }
     }
 
     @Override

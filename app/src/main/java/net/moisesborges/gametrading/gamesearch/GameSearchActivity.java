@@ -1,5 +1,6 @@
 package net.moisesborges.gametrading.gamesearch;
 
+import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,16 +8,13 @@ import android.speech.RecognizerIntent;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
-import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
 import net.moisesborges.gametrading.R;
 import net.moisesborges.gametrading.adapters.AdapterItemCallback;
@@ -45,7 +43,7 @@ public class GameSearchActivity extends AppCompatActivity implements GameSearchV
     private static final int SEARCH_INTERVAL = 300;
 
     @BindView(R.id.search_view)
-    MaterialSearchView mSearchView;
+    SearchView mSearchView;
 
     @BindView(R.id.toolbar)
     Toolbar mToolbar;
@@ -97,43 +95,21 @@ public class GameSearchActivity extends AppCompatActivity implements GameSearchV
 
     private void initPresenter() {
         mPresenter = new GameSearchPresenter(new GamesRepository());
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (mSubscription.isUnsubscribed()) {
+            subscribeToSearch();
+        }
         mPresenter.bindView(this);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.game_search_menu, menu);
-
-        MenuItem item = menu.findItem(R.id.action_search);
-        mSearchView.setMenuItem(item);
-
         return true;
-    }
-
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == MaterialSearchView.REQUEST_VOICE && resultCode == RESULT_OK) {
-            ArrayList<String> matches = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-            if (matches != null && matches.size() > 0) {
-                String searchWrd = matches.get(0);
-                if (!TextUtils.isEmpty(searchWrd)) {
-                    mSearchView.setQuery(searchWrd, false);
-                }
-            }
-
-            return;
-        }
-        super.onActivityResult(requestCode, resultCode, data);
-    }
-
-    @Override
-    public void onBackPressed() {
-        if (mSearchView.isSearchOpen()) {
-            mSearchView.closeSearch();
-        }else {
-            super.onBackPressed();
-        }
     }
 
     @Override
@@ -146,8 +122,17 @@ public class GameSearchActivity extends AppCompatActivity implements GameSearchV
     }
 
     private void setupSearchView() {
-        mSearchView.setVoiceSearch(false);
-        mSearchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
+
+        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        mSearchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+
+        final Intent intent = getIntent();
+        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
+            final String query = intent.getStringExtra(SearchManager.QUERY);
+            mSubject.onNext(query);
+        }
+
+        mSearchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
                 mSubject.onNext(query);
@@ -161,6 +146,10 @@ public class GameSearchActivity extends AppCompatActivity implements GameSearchV
             }
         });
 
+        subscribeToSearch();
+    }
+
+    private void subscribeToSearch() {
         mSubscription = mSubject.debounce(SEARCH_INTERVAL, TimeUnit.MILLISECONDS)
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Action1<String>() {

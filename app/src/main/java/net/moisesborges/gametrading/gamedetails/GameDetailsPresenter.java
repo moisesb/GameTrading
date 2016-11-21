@@ -17,7 +17,17 @@ public class GameDetailsPresenter extends BasePresenter<GameDetailsView> {
     public void loadGameInfo(@NonNull Game game) {
         checkView();
 
+        getView().setTitle(game.getName());
         getView().setGameCoverImage(game.getImage().getImageUrl());
         getView().setDescription(game.getSummary());
+
+    }
+
+    public void changeWantedStatus(@NonNull Game game) {
+
+    }
+
+    public void changeOfferedStatus(@NonNull Game game) {
+
     }
 }

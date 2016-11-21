@@ -2,652 +2,445 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\okio-1.8.0_6d558425e44dca41252d91a8b018950b21087839.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\gson-2.7_243de8517730d62b142481e9063b681f2890c72f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_47bda90a24702af0c94c9a52c95b40b140aa82af.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\eventbus-3.0.0_63004daa883a2e0f7ef80768f4b574c58bdd55a9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.0_5e2326dbb4383d3c2bbc92d66d73a643ee2bb6c6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_b42fc170952fba6781263c56bba0f50dba86a068.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_d4756422c60f81ceb702bfd4fbedfb3265515ac9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_ce6f47ce750f3c09c9630b707641000e2fe0c4a2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ca5e58104f56f918f0fb3a5b1b371ab599ae56b2">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.2.1_cae6c896b7cc46473d7c4aa2d097999a8f10de94.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_56425404cd662467b7002149ec08ef02bf1ac656.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a819aae4f0c711e50b4fd633922a3c1a176cb51e">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.0.0_834a86743203835bdbe7eca3253818d4388b9ce6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-25.0.0_d52545ccb2ab57685f3da3e95187087c736b6c59.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="23c7c34bfb3cdc0599d49e581486b179bc6b2eee">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.17.0_9e5198a929ef70ddf4da2224681e0e356be0f973.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_b42fc170952fba6781263c56bba0f50dba86a068.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_b92095d09851b927183aa11319035f6bd57d5abf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.0.0_2bcaf51e5be76cf412dcca721c7bc9d4bd60365a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.0.0_6d751221e21f7474ca134c76553325a51e6719c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.2\a60c039ba54c73d1133b72178e1b04133c73d13d\adapter-rxjava-2.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a60c039ba54c73d1133b72178e1b04133c73d13d">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.0.2_0c2171d02fc7af72a3e2bff7da6187e158593d77.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.0_599c3493e0eaaedfe099b7721eb97fdb63336f4a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.0_c80842234c725cc0bd6c87c033df265b15794f42.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.0.0_98cdd3b08251b8ae2043e5d7ad07a211eefbbc32.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="70ddab48594608953b20164b82f1f890a9a8174a">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.0.0_0cf51b208d90758aecd2e1a31ecb836fa9bdcadd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_6ae34c2c50523300c76cfbc24bbc6f73ba405673.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_197239323d61ea336e6662c706a67b95c68505c3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="24536a7b97926a9c155c88425da6875adeb11b51">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.0.0_3bf752093631cc61988fefdaa004b93a50685cdf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.2.1\d6f54d76edfbe779a50a8636b10fd3f555d8f780\butterknife-annotations-8.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d6f54d76edfbe779a50a8636b10fd3f555d8f780">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.2.1_2d7e98639910e8672f4ea42dd054529818692211.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5f0f6913a208a126269aaa68004ed0329a832c5b">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.0.0_d4211dd499b16de178c59277245a29e2769f5213.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.0_552d0ec64be3352313c10fb65eea057b8d12eab2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.0.0_8808f471df8ff3fd75adfa57cdb506729a346006.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_432b4234fc2ab5a133485d54668dbb33a39b43b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.0.0_47dd8fb9b7bbeb26f98f50b5ab34e25aac25eef4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_609a6c537e356cbb208be5c7b0af52d9bdc7c982.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.10.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.getbase-floatingactionbutton-1.10.1_95bad776672de6d9f62256bfa25fce76cb14e7a6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_d1e1420e0aeab69338ba840ecf38837449523697.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_dd2dd64571c165173bd94e0dcb71a9873ffed9e7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="24536a7b97926a9c155c88425da6875adeb11b51">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.0.0_3bf752093631cc61988fefdaa004b93a50685cdf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_be577eb408d78b6daa6778466268e539ce843202.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="59cca9b91688dc2467754d36793b3d23bebd21a9">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.0.0_b54bc994d90e90faaf5465a69920b335a0ea7c66.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ca5e58104f56f918f0fb3a5b1b371ab599ae56b2">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.2.1_cae6c896b7cc46473d7c4aa2d097999a8f10de94.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.0.0_048ea285e724d78529fda65d7edacdabc53b570f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\eventbus-3.0.0_63004daa883a2e0f7ef80768f4b574c58bdd55a9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_63eb6b9a60cbeb00097681c0b27840f863ee79ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_496b2270139bdc38f3323b07dd4d740d41423fb6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.miguelcatalan\materialsearchview\1.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="918e3e9514d90e54421b674cf0c95044f4e155ad">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.miguelcatalan-materialsearchview-1.4.0_f3aa8df108bfe1162fe7055775c45c2b5c91ef17.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.2.1_279f1ec33a02028514d61640163e2613fbe88804.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_ce6f47ce750f3c09c9630b707641000e2fe0c4a2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\okio-1.8.0_6d558425e44dca41252d91a8b018950b21087839.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.0.0_2bcaf51e5be76cf412dcca721c7bc9d4bd60365a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.0.0_98cdd3b08251b8ae2043e5d7ad07a211eefbbc32.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5f0f6913a208a126269aaa68004ed0329a832c5b">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.0.0_d4211dd499b16de178c59277245a29e2769f5213.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_609a6c537e356cbb208be5c7b0af52d9bdc7c982.jar" />
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_d7819c04672c1161c666c12f93979efe1fbe9eee\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.0.0_47dd8fb9b7bbeb26f98f50b5ab34e25aac25eef4.jar" />
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_75eb15d908de1f317b06da71b50aab22e2593eef\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.0.0_6d751221e21f7474ca134c76553325a51e6719c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_abdca22bdde835fc4723c413d505598e9960b738.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="59cca9b91688dc2467754d36793b3d23bebd21a9">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.0.0_b54bc994d90e90faaf5465a69920b335a0ea7c66.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.0.0\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="70ddab48594608953b20164b82f1f890a9a8174a">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.0.0_0cf51b208d90758aecd2e1a31ecb836fa9bdcadd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_b4b16c4ad3ae11ab7f0410983cc80e6c90ce72c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.0.0_048ea285e724d78529fda65d7edacdabc53b570f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_432b4234fc2ab5a133485d54668dbb33a39b43b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_0668db08fffb9abdc6e20529a2bec6ffa97e34d3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_3f9f452dfecbe8b7ea047e7ee230858cb1a48a1e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_7f63bafba01dd195ae74c7486bfa261daf7d93df.jar" />
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_9386840e2c5b7722db9a0e986fef6f808dfaf60e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.0_c80842234c725cc0bd6c87c033df265b15794f42.jar" />
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_48de253b4ab089f3045094ffeaa4c57fa08c186e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.0.0_8808f471df8ff3fd75adfa57cdb506729a346006.jar" />
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_3a923630c4136ef56f7f4281e112d01b7058ac29\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="a819aae4f0c711e50b4fd633922a3c1a176cb51e">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.0.0_834a86743203835bdbe7eca3253818d4388b9ce6.jar" />
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_04a749c75688109b627b6565ee63746c03bf682f\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_23e8d2c6629fc8ac0f765ddb72809374d8aba7eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_11ede4d265c301695821d979c20ff118568e6fb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_8abe25b5999192637c76f5e4b3e36d5a3ba3dbfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_baaac1a1c582dbd20069800217c94d55ad84aaa1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.2\a60c039ba54c73d1133b72178e1b04133c73d13d\adapter-rxjava-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a60c039ba54c73d1133b72178e1b04133c73d13d">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.2_31f8c8593b8f6a6fdbe4b01a24dbe7a078b804aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_6447172f879a793026615ffceb439ad512a4e3f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.0.0_e12989f1bc78bab867dec8c0ed1fe1d8486ccb03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_aaf2ed81e3e0cfe8502a9b9db5554cf1eb04e142\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_197239323d61ea336e6662c706a67b95c68505c3.jar" />
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_936cd1f62f0100d9e3d372ac5486e61ced799297\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.2.1\d6f54d76edfbe779a50a8636b10fd3f555d8f780\butterknife-annotations-8.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d6f54d76edfbe779a50a8636b10fd3f555d8f780">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.2.1_2d7e98639910e8672f4ea42dd054529818692211.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_32cc3c5103c2ec7e01a30c555329f6a0aa9bd73a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_d1e1420e0aeab69338ba840ecf38837449523697.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\moises.anjos\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\gson-2.7_243de8517730d62b142481e9063b681f2890c72f.jar" />
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_d9af4a9f91821fa0391b364f4f8dcbb9ec596022\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_65349bd34e9e6d317a2deef80f61d160f82de63a.jar" />
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.0.0_07b1a1b9080e1ba969e2fa30f80bb599e90fec3a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\MeusProjetos2\GameTrading\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.2.1\d6f54d76edfbe779a50a8636b10fd3f555d8f780\butterknife-annotations-8.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="C:\MeusProjetos2\GameTrading\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.0_2afed12293051fd276124c58a32a70d4b6b3c58d.jar" />
+        sha1="d6f54d76edfbe779a50a8636b10fd3f555d8f780">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.2.1_92dafb51bd93a826576c1eeb4066d793e04683a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_c4acbd067acc8d3b44d92ab6b1ccb73a76ec3f06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="716bea5da250c707ce74b1c9362c10808cd33966">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_63800f585b12741ad2470e2289b59170906ce32e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="70ddab48594608953b20164b82f1f890a9a8174a">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.0.0_6068fac2f2bd0b65c67d06f1339a6c9185c0c3af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="24536a7b97926a9c155c88425da6875adeb11b51">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.0.0_96d9ccc1ca7aa72e6684db22f2f4814f11aaec50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_b97fad3642a7e4b9d4b721e7764a978c59b7edd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.0.0_74c234c532000d8ac28da8c9dc27f3e78eb5309c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="701ff2866264a71f7d199161407ba152816c9f7d">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4a88b0cf412b358e7ecc6a6b3475bb8690a666a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_0ef8d47696ec535e62aa403ff3b868e49c4514ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="23c7c34bfb3cdc0599d49e581486b179bc6b2eee">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.17.0_ed504add97c8726f2aee23ca4284b3cc443412bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5f0f6913a208a126269aaa68004ed0329a832c5b">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.0.0_91b4290153d8cfa5705fc4128f9b1c17ccb2a993\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="59cca9b91688dc2467754d36793b3d23bebd21a9">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.0.0_9432b147a5f46a30f01d6e7b4fde3adef1aef068\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_111f4da58ba827d327072a9e8ae75b48ed3f6941\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_665c8f7739995869d2fc3b2254cc34f0d51a80f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d86b9e8adbff285c79f9d581921807c8cc0d30fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_6245a24963140b98fbef33aa6302163a18cfea0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.0.0_b91b260c911431d6e3eaee6a3ad0649fb94601d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_5d38b6edaba3a0e26a035336bede99b46a521447\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ca5e58104f56f918f0fb3a5b1b371ab599ae56b2">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.2.1_d427dc677af6ea03c3d7e1047d81852bcf8af776\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.2.1_7d616a92435e875e123e3433853aa4c72b694c7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_cbbf62ac363c78859ef995bb4dda964ffe5cda9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.0.0_8f49b7c3afcac25311700f654b75ff1f91ad998a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_2b7038449e254426f62cdac2cfebc5503af771b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a819aae4f0c711e50b4fd633922a3c1a176cb51e">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.0.0_17f8d5665b9e49db5136770f46d796e646fdcc09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_e0083df8bc55ca915c874b10845bef0606fb9caf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.0.0_718444db218926c82dac48b8487ed2c73813240f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.0.0_afa4cdff595c0724a4f9d768303c019fc2b36f2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_2ec987a35a9b1f07a61938e4759515d754b37b50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_98ffeff1e4fe6e0dd5b2b36a1a16e9a594e6a368\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\moise\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_af4fa767ffd79cb731796564ddb43402df46ec59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\GameTrading\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_8a6e12d7eba2ebd51b1fe0f63b6130596872515c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Projects\GameTrading\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_9b0ac3bb146ca7246b8dc495a88ded5f024bda13\classes.dex" />
     </item>
 
 </items>

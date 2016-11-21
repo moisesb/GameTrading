@@ -10,4 +10,6 @@ public interface GameDetailsView extends BaseView {
     void setGameCoverImage(String imageUrl);
 
     void setDescription(String description);
+
+    void setTitle(String title);
 }
